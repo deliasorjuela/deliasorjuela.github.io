@@ -32,6 +32,15 @@ h1 {
   text-align: center;
   
 }
+h3{
+  text-shadow: 15px 15px 10px #07070744;
+  font-family: 'Indie Flower', cursive;
+  padding-top: 5px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 4px;
+}
 
 header p {
   text-shadow: 15px 15px 10px #07070744;
@@ -53,13 +62,24 @@ section article {
   background-image: url(images/tec5.jpg);
   background-size: 100%;
   padding-top: 5px;
-  margin: 14px;
+  margin: 15px;
   margin-bottom: 10px;
  float: left;
   inline-size: 31%;
   border: 1px solid black;
   color: rgb(120, 174, 207);
   margin-bottom: 40px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.1s;
+}
+
+article:hover{
+  background-image: -webkit-linear-gradient(top, #20b03a);
+  text-decoration: none;
+  background-color: #4CAF50; /* Green */
+  color: white;
+
+
 }
 
 
@@ -69,6 +89,16 @@ section p {
   font-family: monospace;
   margin: 0;
   color: rgb(120, 174, 207);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.1s;
+}
+
+p:hover{
+  background-image: -webkit-linear-gradient(top, #20b03a);
+  text-decoration: none;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer;
 }
 
 
@@ -82,6 +112,7 @@ section ul {
   font-family: monospace;
   font-weight: lighter;
   font-size: 14px;
+  
 }
 
 h2 {
@@ -93,8 +124,16 @@ h2 {
 
 section ul li {
   border-bottom: 3px solid black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.1s;
 }
-
+li:hover{
+  background-image: -webkit-linear-gradient(top, #20b03a);
+  text-decoration: none;
+  background-color: #4CAF50; /* Green */
+  cursor: pointer;
+  color: white;
+}
 
 a {
   
@@ -125,5 +164,3 @@ a {
   width: 100%;
  }
  
-
-
