@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa&family=Dosis:wght@300;400&family=Indie+Flower&family=Montserrat:wght@100;300&family=Quicksand:wght@400;500&display=swap');
+*{
+  width: 100%;
+  font-weight: bold;
+  
+  border: none;
+}
+
+html {
+  font-family: Verdana, Arial, Tahoma, Serif;
+}
+
+body {
+ 
+  margin: 0 auto;
+  background-image: url(images/fon.png);
+}
+
+h2 {
+  text-shadow: 15px 15px 10px #07070744;
+  font-family: 'Faster One', cursive;
+  
+}
+
+/* header styles */
+
+h1 {
+  border-radius: 2px;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 15px 15px 10px #07070744;
+  font-size: 4rem;
+  text-align: center;
+  
+}
+
+header p {
+  text-shadow: 15px 15px 10px #07070744;
+  font-family: 'Indie Flower', cursive;
+  padding-top: 5px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+/* section styles */
+
+section article {
+  box-shadow: 5px 5px 10px #07070744;
+  border-radius: 10px;
+  font-family: monospace;
+  text-align: center;
+  background-image: url(images/tec5.jpg);
+  background-size: 100%;
+  padding-top: 5px;
+  margin: 15px;
+  margin-bottom: 10px;
+ float: left;
+  inline-size: 31%;
+  border: 1px solid black;
+  color: rgb(120, 174, 207);
+  margin-bottom: 40px;
+}
+
+
+section p {
+  font-weight: bold;
+  font-size: large;
+  font-family: monospace;
+  margin: 0;
+  color: rgb(120, 174, 207);
+}
+
+
+section ul {
+  color: rgb(159, 209, 239);
+  padding-left: 0px;
+  float: inherit;
+  padding-top: 30px;
+  margin-top: 0;
+  list-style: none;
+  font-family: monospace;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+section ul li {
+  border-bottom: 3px solid black;
+}
+
+
+a {
+  
+  padding: 15px;
+  margin-left: 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  width: 95.5%;
+  border-radius: 5px;
+  background-color: rgb(143, 245, 121);
+  box-shadow: 5px 5px 10px #07070744;
+  text-shadow: 5px 5px 10px #07070744;
+  border-style: none;
+  float: right;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.1s;
+}
+  a:hover {
+ 
+  background-image: -webkit-linear-gradient(top, #20b03a);
+  text-decoration: none;
+  background-color: #4CAF50; /* Green */
+  color: white;
+ }
+
+ .content {
+  width: 100%;
+ }
+ 
+
+
